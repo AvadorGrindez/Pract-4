@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dijkstra's Algorithm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Dijkstra's Algorithm Demo</h1>
+  <div class="graph">
+    <div id="graph"></div>
+  </div>
+  <div class="controls">
+    <label for="startNode">Start Node:</label>
+    <select id="startNode">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+    </select>
+    <label for="endNode">End Node:</label>
+    <select id="endNode">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+    </select>
+    <button onclick="findShortestPath()">Find Shortest Path</button>
+  </div>
+  <div id="result"></div>
+</div>
+
+<script src="Function.js"></script>
+</body>
+</html>
